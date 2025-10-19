@@ -14,11 +14,40 @@ Gunakan perintah `/team3` untuk bergabung dengan team 3.
 
 ### Response Success
 ```
-Bot Akan Menginvite Mu
+Bot Akan Menginvite Di Ingame
+Terima Invite untuk bergabung
+kedalam Team 3
 ```
 
-### Response Failed
+## Team5
+
+Gunakan perintah `/team5` untuk bergabung dengan team 5.
+
+### Contoh Penggunaan
+```bash
+/team5
 ```
-Bot Tidak Merespon
+
+### Response Success
+```
+Bot Akan Menginvite Di Ingame
+Terima Invite untuk bergabung
+kedalam Team 5
+```
+
+## Team6
+
+Gunakan perintah `/team6` untuk bergabung dengan team 6.
+
+### Contoh Penggunaan
+```bash
+/team6
+```
+
+### Response Success
+```
+Bot Akan Menginvite Di Ingame
+Terima Invite untuk bergabung
+kedalam Team 6
 ```
 
