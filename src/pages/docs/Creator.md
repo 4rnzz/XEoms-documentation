@@ -14,3 +14,8 @@ description: Learn more about XEoms
 **Socials:**
 - [TikTok](https://www.tiktok.com/@seyos_official)  
 - [Instagram](https://www.instagram.com/seyos_official)
+
+
+### Official Xeoms Store
+**Buy Xeoms Bot:**
+- [Lihat Untuk Order](https://sysclicks.com/Buy-Xeoms-Bot-Official)  
