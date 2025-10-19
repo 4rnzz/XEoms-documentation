@@ -1,5 +1,5 @@
 ---
-title: Feature
+title: Emote Frature
 description: Coming soon.
 ---
 
