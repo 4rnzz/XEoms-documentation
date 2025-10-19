@@ -7,4 +7,4 @@ Coming soon.
 
 ## Start 🕹️
 
-![Logo Proyek](images/logo.png)
+![Logo Proyek](https://raw.githubusercontent.com/XtraaDev/dbskin/refs/heads/main/IMG-20251006-WA0052.jpg)
