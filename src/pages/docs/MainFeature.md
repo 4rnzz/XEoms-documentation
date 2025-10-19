@@ -3,7 +3,7 @@ title: Main Feature
 description: Tutorial Menggunakan Fitur
 ---
 
-## Stalk
+## Stalk 🕵️
 
 Gunakan perintah `/stalk` untuk menampilkan informasi detail dari user tertentu menggunakan **UID**.
 
@@ -28,7 +28,7 @@ Player: Not Found
 
 ---
 
-## Like
+## Like 👍
 
 Gunakan perintah `/like` untuk menyukai profil sendiri atau user lain menggunakan **UID**.
 
@@ -55,7 +55,7 @@ UID ini sudah menerima batas like hari ini.
 
 ---
 
-## Spad (Maintenance)
+## Spad (Maintenance) 🧑‍🔧
 
 Gunakan perintah `/spad` — fitur ini **Untuk Spam Add Friend Ke akun Target**.
 
@@ -79,7 +79,7 @@ Failed To Send Spad Request addFriend Full
 
 ---
 
-## Visit
+## Visit 👁️
 
 Gunakan perintah `/visit` untuk menambah views profil sendiri atau user lain menggunakan **UID**.
 
