@@ -3,9 +3,6 @@ title: Getting Started
 pageTitle: XEoms
 description: A quick start guide for XEoms — your ultimate BotFriend FF to automate, manage, and enhance your Free Fire experience!
 ---
-
-Learn how to set up and use **XEoms (BotFriend FF)** easily. {% .lead %}
-
 {% quick-links %}
 
 {% quick-link 
