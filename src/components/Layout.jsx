@@ -49,9 +49,7 @@ function Header({ navigation }) {
     }
     onScroll()
     window.addEventListener('scroll', onScroll, { passive: true })
-    return () => {
-      window.removeEventListener('scroll', onScroll, { passive: true })
-    }
+    return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
   return (
@@ -66,19 +64,24 @@ function Header({ navigation }) {
       <div className="mr-6 flex lg:hidden">
         <MobileNavigation navigation={navigation} />
       </div>
+
       <div className="relative flex flex-grow basis-0 items-center">
-        <Link href="/" aria-label="Home page" className="text-xl font-semibold text-neutral-800 dark:text-white">
+        <Link
+          href="/"
+          aria-label="Home page"
+          className="text-xl font-semibold text-neutral-800 dark:text-white"
+        >
           XEoms
         </Link>
       </div>
+
       <div className="-my-5 mr-6 sm:mr-8 md:mr-0">
         <Search />
       </div>
+
+      {/* Removed GitHub icon, keep ThemeSelector only */}
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
         <ThemeSelector className="relative z-10" />
-        <Link href="https://github.com/4rnzz/XEoms-documentation" className="group" aria-label="GitHub">
-          <GitHubIcon className="h-6 w-6 fill-neutral-400 group-hover:fill-neutral-500 dark:group-hover:fill-neutral-300" />
-        </Link>
       </div>
     </header>
   )
