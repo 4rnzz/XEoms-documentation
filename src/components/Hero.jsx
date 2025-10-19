@@ -9,11 +9,12 @@ export function Hero() {
   return (
     <div className="overflow-hidden bg-neutral-900 py-16 lg:py-24 relative">
       <div className="mx-auto max-w-7xl px-4 lg:px-8 relative z-10">
+        
         {/* Responsive layout */}
-        <div className="flex flex-col lg:grid lg:grid-cols-2 items-center gap-12">
+        <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 items-center gap-12">
           
-          {/* Left image (desktop), center image (mobile) */}
-          <div className="order-2 lg:order-1 flex justify-center lg:justify-end">
+          {/* Image (centered on mobile, left on desktop) */}
+          <div className="flex justify-center lg:justify-end">
             <Image
               src={XEomsImage}
               alt="XEoms Hero"
@@ -24,14 +25,14 @@ export function Hero() {
             />
           </div>
 
-          {/* Right section (desktop), top text (mobile) */}
-          <div className="order-1 lg:order-2 flex flex-col items-center lg:items-start text-center lg:text-left">
+          {/* Text + TikTok + Buttons */}
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
             {/* Title */}
             <h1 className="text-5xl font-bold text-white mb-6">
               亗 XΞoms Latest Version
             </h1>
 
-            {/* TikTok + Buttons (kept below on mobile) */}
+            {/* TikTok + Buttons (always below image on mobile) */}
             <div className="mt-4 flex flex-col items-center lg:items-start">
               <p className="text-2xl text-neutral-400 mb-6">
                 TikTok: <span className="font-semibold text-white">TXT RENZ FF</span>
