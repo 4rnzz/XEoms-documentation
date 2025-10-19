@@ -3,7 +3,7 @@ title: TeamFeature
 description: Tutorial Menggunakan Fitur
 ---
 
-## Team3
+## Team3 3️⃣
 
 Gunakan perintah `/team3` untuk bergabung dengan team 3.
 
@@ -19,7 +19,7 @@ Terima Invite untuk bergabung
 kedalam Team 3
 ```
 
-## Team5
+## Team5 5️⃣
 
 Gunakan perintah `/team5` untuk bergabung dengan team 5.
 
@@ -35,7 +35,7 @@ Terima Invite untuk bergabung
 kedalam Team 5
 ```
 
-## Team6
+## Team6 6️⃣
 
 Gunakan perintah `/team6` untuk bergabung dengan team 6.
 
